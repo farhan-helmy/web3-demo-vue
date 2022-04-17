@@ -2,7 +2,7 @@
 import { ethers } from 'ethers'
 import { acceptHMRUpdate, defineStore } from 'pinia'
 import contractABI from '../artifacts/contracts/WavePortal.sol/WavePortal.json'
-const contractAddress = '0xEb3B8A7bF4E853d11aD233e15438852Ac067e253'
+const contractAddress = '0xdEe21350bE32319C92aec061a8a2Ca91046BF874'
 
 export const useCryptoStore = defineStore('user', () => {
   const account = ref(null)
@@ -94,7 +94,7 @@ export const useCryptoStore = defineStore('user', () => {
           // const waveTimeFormatted = moment(waveTime).format('llll')
           // DateTime.fromFormat(waveTime, 'MM-dd-yyyy').toJSDate();
           const waveTimeFormatted = new Intl.DateTimeFormat('en-US').format(waveTime) as any
-
+          console.log(wave)
           wavesCleaned.push({
             address: wave.waver,
             timestamp: waveTimeFormatted,

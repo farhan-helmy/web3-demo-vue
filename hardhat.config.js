@@ -11,7 +11,7 @@ module.exports = {
       chainId: 1337,
     },
     mumbai: {
-      url: 'https://polygon-mumbai.g.alchemy.com/v2/f6PMffGUC3hwSBZEkThTHLkwFlHWdYPd',
+      url: 'https://polygon-mumbai.g.alchemy.com/v2/jOTh2rXPtafosQ3IFHCRaBWnk40yT7D4',
       accounts: [`0x${process.env.PRIVATE_KEY}`],
     },
   },

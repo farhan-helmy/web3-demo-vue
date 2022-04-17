@@ -13,7 +13,7 @@ const { account, guestPosts, guestPostsCount } = storeToRefs(cryptoStore)
 <template>
   <div class="flex flex-col items-center">
     <h1 class="text-2xl m-4">
-      Erik's Crypto Guest Book
+      Farhan Crypto Vue
     </h1>
     <button v-if="!account" class="bg-green-300 rounded p-4" @click="connectWallet">
       Connect Wallet
