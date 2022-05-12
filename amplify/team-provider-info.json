@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-web3vitevue-dev-14001-authRole",
+      "UnauthRoleArn": "arn:aws:iam::190930221916:role/amplify-web3vitevue-dev-14001-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::190930221916:role/amplify-web3vitevue-dev-14001-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-web3vitevue-dev-14001-deployment",
+      "UnauthRoleName": "amplify-web3vitevue-dev-14001-unauthRole",
+      "StackName": "amplify-web3vitevue-dev-14001",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:190930221916:stack/amplify-web3vitevue-dev-14001/6b1dd110-be75-11ec-8b1a-02a4c54a724e",
+      "AmplifyAppId": "d154hhz5ueies7"
+    }
+  }
+}
